@@ -1,0 +1,1 @@
+propset_master.py - Walks a directory recursively and sets some default properties to make svn quit complaining.
