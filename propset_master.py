@@ -3,7 +3,7 @@
 import sys
 import os
 
-text_extensions = (".txt",".cmake",".cxx",".txx",".h",".c",".py",".cpp",".sh",".xml",".cu",".bvh",".ui")
+text_extensions = (".txt",".cmake",".cxx",".txx",".h",".c",".py",".cpp",".sh",".xml",".cu",".bvh",".ui",".m",".html",".css")
 
 
 curpath = ""
