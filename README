@@ -1,4 +1,6 @@
-propset_master.py - Walks a directory recursively and sets some default properties to make svn quit complaining.
+propset_master.py - Walks a directory recursively and sets some default 
+		    properties to make svn quit complaining.
 propset_helper.py - Applies basic properties to an svn property
 CIOExample - basic C IO
 twitter.sh - cli to twitter
+RegistryHacks - Registry scripts that make working in windows more tolerable.
