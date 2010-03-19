@@ -88,8 +88,12 @@ alias e='emacs -nw'
 alias vg='valgrind --leak-check=yes --show-reachable=yes' 
 alias cvs-status='cvs status 2>&1 | egrep "(^\? |Status: )" | grep -v Up-to-date'
 
+# Git aliases
+alias gcb='git checkout -b'
+alias hsd="hack && ship && dwf"
+
 # Setup the environment
-PATH=${PATH}:/home/cpatrick/Installations/bin
+PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools
 PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-Debug/pyopenjpeg:/home/cpatrick/Source/tubetk-playpen/python
 PYTHONSTARTUP=/home/cpatrick/.pystartup
 EDITOR='e'
