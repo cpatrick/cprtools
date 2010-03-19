@@ -90,7 +90,7 @@ alias cvs-status='cvs status 2>&1 | egrep "(^\? |Status: )" | grep -v Up-to-date
 
 # Git aliases
 alias gcb='git checkout -b'
-alias hsd="hack && ship && dwf"
+alias hsd="hack.sh && ship.sh && dwf.sh"
 
 # Setup the environment
 PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools
