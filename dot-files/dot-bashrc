@@ -90,6 +90,9 @@ alias cvs-status='cvs status 2>&1 | egrep "(^\? |Status: )" | grep -v Up-to-date
 
 # Git aliases
 alias gcb='git checkout -b'
+alias hack='hack.sh'
+alias ship='ship.sh'
+alias dwf='dwf.sh'
 alias hsd="hack.sh && ship.sh && dwf.sh"
 
 # Setup the environment
