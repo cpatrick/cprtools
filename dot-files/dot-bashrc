@@ -96,12 +96,11 @@ alias dwf='dwf.sh'
 alias hsd="hack.sh && ship.sh && dwf.sh"
 
 # Setup the environment
-PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools
-PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-Debug/pyopenjpeg:/home/cpatrick/Source/tubetk-playpen/python
+PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools:/home/cpatrick/Builds/InsightApplications-Debug/ImageViewer:/home/cpatrick/Builds/tubetk-release/CMakeExternals/Build/TubeTK-inner/lib/TubeTK/Plugins
+PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-build/pyopenjpeg:/home/cpatrick/Source/tubetk-playpen/python
 PYTHONSTARTUP=/home/cpatrick/.pystartup
 EDITOR='e'
 export PATH
 export PYTHONPATH
 export EDITOR
 export PYTHONSTARTUP
-
