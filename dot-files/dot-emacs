@@ -170,3 +170,5 @@
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'auto-fill-mode)
 
+; setting the default font
+(add-to-list 'default-frame-alist '(font . "Anonymous-10"))
