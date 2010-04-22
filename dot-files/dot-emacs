@@ -1,13 +1,3 @@
-; use emacs-server, all subsequent edits on same host become clients
-;     working in own frame
-; set up server to start each new client on its own frame
-(add-hook 'server-visit-hook 'make-frame)
-; switch the parent frame back to its own buffer
-(add-hook 'server-switch-hook
-          '(lambda ()
-             (server-switch-buffer (other-buffer))))
-(server-start)
-
 ; frames
 (setq frame-title-format "%b")		; use buffer name for title
 (setq display-buffer-reuse-frames t)    ; no new frame if already open
