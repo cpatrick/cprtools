@@ -96,10 +96,10 @@ alias hack='hack.sh'
 alias hsd="hack.sh && ship.sh && dwf.sh"
 
 # Setup the environment
-PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools:/home/cpatrick/Builds/InsightApplications-Debug/ImageViewer:/home/cpatrick/Builds/android-sdk-linux_86/tools
-PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-Debug/pyopenjpeg:/home/cpatrick/Source/tubetk-playpen/python:/home/cpatrick/Builds/tubetk-release/CMakeExternals/Build/TubeTK-inner/lib/TubeTK/Plugins
+PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools:/home/cpatrick/Builds/InsightApplications-Debug/ImageViewer:/home/cpatrick/Builds/android-sdk-linux_86/tools:/home/cpatrick/Builds/tubetk-Release/CMakeExternals/Build/TubeTK-inner/lib/TubeTK/Plugins
+PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-Debug/pyopenjpeg:/home/cpatrick/Source/tubetk-playpen/python
 PYTHONSTARTUP=/home/cpatrick/.pystartup
-EDITOR='e'
+EDITOR='emacs -nw'
 export PATH
 export PYTHONPATH
 export EDITOR
