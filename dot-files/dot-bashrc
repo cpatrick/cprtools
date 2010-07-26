@@ -88,6 +88,12 @@ alias e='emacs -nw'
 alias vg='valgrind --leak-check=yes --show-reachable=yes' 
 alias cvs-status='cvs status 2>&1 | egrep "(^\? |Status: )" | grep -v Up-to-date'
 
+# Alias for imagej
+alias imagej='/home/cpatrick/Builds/ImageJ/imagej'
+
+# Alias for weka
+alias weka='weka.sh'
+
 # Git aliases
 alias gcb='git checkout -b'
 alias dwf='dwf.sh'
@@ -96,7 +102,7 @@ alias hack='hack.sh'
 alias hsd="hack.sh && ship.sh && dwf.sh"
 
 # Setup the environment
-PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools:/home/cpatrick/Builds/InsightApplications-Debug/bin:/home/cpatrick/Builds/android-sdk-linux_86/tools:/home/cpatrick/Builds/tubetk-Release/CMakeExternals/Build/TubeTK-inner/lib/TubeTK/Plugins
+PATH=${PATH}:/home/cpatrick/Installations/bin:/home/cpatrick/Source/cprtools:/home/cpatrick/Builds/InsightApplications-Debug/bin:/home/cpatrick/Builds/android-sdk-linux_86/tools:/home/cpatrick/Builds/tubetk-Release/TubeTK-Build/lib/TubeTK/Plugins
 PYTHONPATH=${PYTHONPATH}:/home/cpatrick/Source/KWVision/python/projects:/home/cpatrick/Builds/wavc-Debug/pyopenjpeg:/home/cpatrick/Source/uscexpose/python
 PYTHONSTARTUP=/home/cpatrick/.pystartup
 EDITOR='emacs -nw'
