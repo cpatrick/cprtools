@@ -169,3 +169,7 @@
 
 ; php
 (require 'php-mode)
+( setq auto-mode-alist
+  (append
+    '(("\\.thtml\\'" . php-mode))
+    auto-mode-alist) )
