@@ -168,8 +168,7 @@
 (add-to-list 'default-frame-alist '(font . "Anonymous-11"))
 
 ; php
-(require 'php-mode)
-( setq auto-mode-alist
-  (append
-    '(("\\.thtml\\'" . php-mode))
-    auto-mode-alist) )
+(autoload 'php-mode "php-mode" "Major mode for editing php code." t)
+(add-to-list 'auto-mode-alist '("\\.php$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.inc$" . php-mode))
+(add-to-list 'auto-mode-alist '("\\.thtml$" . php-mode))
