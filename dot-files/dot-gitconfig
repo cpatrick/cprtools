@@ -10,3 +10,8 @@
 	default = current
 [core]
 	autocrlf = input
+[alias]
+        currentbranch = "!git branch 2>/dev/null|grep -e ^* | cut -c 3-"
+        safedcommit = !CURRENT=$(git currentbranch) && git branch ${CURRENT}bak && git svn dcommit && git branch -D ${CURRENT}bak
+[merge]
+	log = true
