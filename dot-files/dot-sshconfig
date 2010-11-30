@@ -1,0 +1,10 @@
+Host Aiur
+HostName krs.kitware.com
+Port 50156
+DynamicForward 9999
+ForwardX11 yes
+
+Host dione
+HostName dione.ia.unc.edu
+DynamicForward 8888
+ForwardX11 yes
