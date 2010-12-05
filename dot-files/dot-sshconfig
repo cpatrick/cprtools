@@ -8,3 +8,12 @@ Host dione
 HostName dione.ia.unc.edu
 DynamicForward 8888
 ForwardX11 yes
+
+Host moloch
+HostName cpatrick.kicks-ass.net
+Port 7777
+ForwardX11 yes
+
+Host insightjournal
+HostName insightjournal
+ForwardX11 yes
