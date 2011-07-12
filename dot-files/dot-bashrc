@@ -48,6 +48,11 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
+# MacPorts Bash shell command completion
+if [ -f /opt/local/etc/bash_completion ]; then
+    . /opt/local/etc/bash_completion
+fi
+
 if [ "$color_prompt" = yes ]; then
     PS1='\[\033[01;31m\]\w\[\033[0;33m\]$(__git_ps1) \[\033[0;32m\]$ \[\033[0;0m\]'
 else
