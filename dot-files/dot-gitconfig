@@ -15,5 +15,6 @@
         safedcommit = !CURRENT=$(git currentbranch) && git branch ${CURRENT}bak && git svn dcommit && git branch -D ${CURRENT}bak
 	pullall = !sh -c \"git pull && git submodule update --init\"
 	prepush = log --graph --stat origin/master..
+	graph = log --graph --oneline
 [merge]
 	log = true
