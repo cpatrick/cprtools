@@ -17,5 +17,9 @@ ForwardX11 yes
 Host insightjournal
 HostName insightjournal
 ForwardX11 yes
+
 Host itk.org
-  IdentityFile=~/.ssh/id_git_itk
+IdentityFile=~/.ssh/id_git_itk
+
+Host dev.bbmsc.com
+User kitware
