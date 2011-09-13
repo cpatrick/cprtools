@@ -2,6 +2,5 @@ propset_master.py - Python script that walks a directory recursively and sets
 		    some default properties to make svn quit complaining.
 propset_helper.py - Python script that applies basic properties to file in a
 		    svn repository.
-CIOExample - An example of basic C I/O.
-twitter.sh - A CLI to twitter.
-RegistryHacks - Registry scripts that make working in windows more tolerable.
+load_easytether.sh - Load Easytether driver on my mac
+unload_easytether.sh - Unload Easytether on the mac (it interferes with android sdk sometimes)

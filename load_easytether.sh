@@ -1,0 +1,1 @@
+sudo kextload /System/Library/Extensions/EasyTetherUSBEthernet.kext
