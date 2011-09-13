@@ -16,5 +16,6 @@
 	pullall = !bash -c \"git pull && git submodule update --init\"
 	prepush = log --graph --stat origin/master..
 	graph = log --graph --oneline
+	mergegood = merge --log --no-ff
 [merge]
 	log = true
