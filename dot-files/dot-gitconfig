@@ -13,7 +13,7 @@
 [alias]
         currentbranch = "!git branch 2>/dev/null|grep -e ^* | cut -c 3-"
         safedcommit = !CURRENT=$(git currentbranch) && git branch ${CURRENT}bak && git svn dcommit && git branch -D ${CURRENT}bak
-	pullall = !sh -c \"git pull && git submodule update --init\"
+	pullall = !bash -c \"git pull && git submodule update --init\"
 	prepush = log --graph --stat origin/master..
 	graph = log --graph --oneline
 [merge]

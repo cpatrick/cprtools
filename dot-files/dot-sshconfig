@@ -23,3 +23,6 @@ IdentityFile=~/.ssh/id_git_itk
 
 Host dev.bbmsc.com
 User kitware
+
+Host localhost
+IdentityFile=~/.ssh/id_dsa_home
