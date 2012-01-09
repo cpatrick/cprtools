@@ -19,3 +19,11 @@
 	mergegood = merge --log --no-ff
 [merge]
 	log = true
+	tool = emerge
+[mergetool "emerge"]
+	path = /Users/cpatrick/bin/emerge-for-git
+[github]
+	user = cpatrick
+	token = fd8daaefa502fbc016d8dfce173491b4
+[rerere]
+	enabled = 1
