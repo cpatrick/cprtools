@@ -1,29 +1,26 @@
 [user]
-	name = Patrick Reynolds
-	email = cpreynolds@gmail.com
+  name = Patrick Reynolds
+  email = patrick.reynolds@kitware.com
 [color]
-	ui = auto
+  ui = auto
 [branch "master"]
-	remote = origin
-	merge = refs/heads/master
+  remote = origin
+  merge = refs/heads/master
 [push]
-	default = current
+  default = current
 [core]
-	autocrlf = input
+  autocrlf = input
 [alias]
-        currentbranch = "!git branch 2>/dev/null|grep -e ^* | cut -c 3-"
-        safedcommit = !CURRENT=$(git currentbranch) && git branch ${CURRENT}bak && git svn dcommit && git branch -D ${CURRENT}bak
-	pullall = !bash -c \"git pull && git submodule update --init\"
-	prepush = log --graph --stat origin/master..
-	graph = log --graph --oneline
-	mergegood = merge --log --no-ff
+  currentbranch = "!git branch 2>/dev/null|grep -e ^* | cut -c 3-"
+  safedcommit = !CURRENT=$(git currentbranch) && git branch ${CURRENT}bak && git svn dcommit && git branch -D ${CURRENT}bak
+  pullall = !bash -c \"git pull && git submodule update --init\"
+  prepush = log --graph --stat origin/master..
+  graph = log --graph --oneline
+  mergegood = merge --log --no-ff
 [merge]
-	log = true
-	tool = emerge
-[mergetool "emerge"]
-	path = /Users/cpatrick/bin/emerge-for-git
+  log = true
 [github]
-	user = cpatrick
-	token = fd8daaefa502fbc016d8dfce173491b4
+  user = cpatrick
+  token = fd8daaefa502fbc016d8dfce173491b4
 [rerere]
-	enabled = 1
+  enabled = 1
